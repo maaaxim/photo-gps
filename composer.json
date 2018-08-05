@@ -1,0 +1,15 @@
+{
+    "name": "maaaxim/photos",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Maxim Loboda",
+            "email": "maxim.loboda@gmail.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {"Maaaxim\\Photo\\": "src/"}
+    }
+}
