@@ -11,7 +11,9 @@ namespace Maaaxim\Photo;
 class Scanner
 {
     /**
-     * @param string $path
+     * Returns array of files in the directory
+     *
+     * @param string $path path to directory with images
      * @return array
      */
     public function scanDirectory(string $path = "photos"): array

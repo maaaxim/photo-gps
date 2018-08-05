@@ -10,11 +10,15 @@ use Maaaxim\Photo\Exceptions\GpsException;
  */
 class Gps
 {
+    /**
+     * Default precision
+     */
     const PRECISION = 2;
 
     /**
      * Returns an array of latitude and longitude from the Image file
-     * @param string $path
+     *
+     * @param string $path path to image
      * @return array
      * @throws GpsException
      */
