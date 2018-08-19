@@ -1,6 +1,6 @@
 <?php
 
-namespace Maaaxim\Photo\Exceptions;
+namespace Maaaxim\Photo\Exception;
 
 use Exception;
 
@@ -8,7 +8,7 @@ use Exception;
  * Class GpsException
  * @package Maaaxim\Photo\Exceptions
  */
-class GpsException extends Exception
+class ExifException extends Exception
 {
 
 }

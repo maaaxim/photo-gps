@@ -8,7 +8,9 @@
             "email": "maxim.loboda@gmail.com"
         }
     ],
-    "require": {},
+    "require": {
+        "lsolesen/pel": "^0.9.6"
+    },
     "autoload": {
         "psr-4": {"Maaaxim\\Photo\\": "src/"}
     }
